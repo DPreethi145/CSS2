@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #cubes {
+            background-image: url("https://images.unsplash.com/photo-1569982175971-d92b01cf8694?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8&w=1000&q=80");
+            background-repeat: y-repeat;
+            border: 5px solid green;
+        }
+        .flex-container{
+            display:inline-block;
+            justify-content:space-around;
+            
+        }
+        .b1{
+            border: 7px solid red;
+            width: 400px;
+            height: 150px;
+            color:cornsilk;
+            border-radius: 30px;
+            background-color: black;
+            font-size: 23px;
+            text-align: center;
+            
+            
+            
+        }
+        .b2{
+            border: 7px solid red;
+            width: 400px;
+            height: 50px;
+            position: relative;
+            top: 25px;
+            right: 130px;
+            color:cornsilk;
+            border-radius: 30px;
+            background-color: black;
+            font-size: 23px;
+            text-align: center;
+            
+        }
+        .b3{
+            border: 7px solid red;
+            width: 400px;
+            height: 150px;
+            color:cornsilk;
+            border-radius: 30px;
+            background-color: black;
+            font-size: 23px;
+            text-align: center;
+
+
+        }
+        .menu{
+            border:3px solid red;
+            background-color: black;
+            color: white;
+            width:450px;
+            height:50px;
+            border-radius: 20px;
+        
+        }
+        #round{
+    border:5px solid white;
+    border-radius: 150px;
+    width:300px;
+    height:300px;
+    display:flow-root;
+    align-self: center;
+    
+    
+        }
+        .text1{
+            align-self: center;
+        }
+    
+        label{
+            color:tomato;
+        }
+#dash1{
+    /* outline-style:dashed; */
+    /* outline-color: red; */
+    /* outline-width: thick; */
+    border:8px dashed red;
+    height: 750px;
+    width:400px;
+    font-size: 20px;
+    position:relative;
+    top:50px;
+    right:100px;
+}
+#ps1{
+    display:flex;
+    justify-content: space-around;
+}
+.box1{
+    border:3px solid red;
+    border-radius: 30px;
+    width:300px;
+    height:300px;
+    color:maroon;
+    background-color: magenta;
+    text-align: center;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+    .list1{
+        margin-left: 20px;
+    font-size: 18px;
+
+    }
+h3{
+    position:relative;
+    left:60px;
+    top:20px;
+    font-size:x-large;
+    color:red;
+}
+.line{
+    position:relative;
+    top:20px;
+}
+.line1{
+    position:relative;
+    top:20px;
+    width:270px;
+}
+.font{
+    font-size: 20px;
+    color:chartreuse;
+    position:relative;
+    top:10px;
+    left:10px;
+}
+.tex{
+    position:absolute;
+    left:10px;
+}
+    </style>
+</head>
+<body id="cubes"><br>
+    <div class="flex-container">
+         <div  class="b1" ><i><b>i created a small webpage using css c adipisicing elit. Non, doloremque.</b></i></div>
+        <div class="b2" class="tex"><b><i>css is used to tyle the web pages in attractable way.</i></b></div>
+        <div class="b3" class="tex"><i><b>for more information contact us Lorem ipsum  adipisicing elit. Animi, numquam!</b></i></div>
+    </div><br><br>
+    <div id="ps1">
+    <div id="round">
+         <h3>superprising offers
+        </h3><hr class="line1">
+        <p class="font">spl dum biryamni 250/- per two persons</p>
+        <hr class="line">
+        <p class="font">chicken lollipups 100/- for 4 pieces </p>
+    </div> <br><br>
+    <div id="dash1">
+    <center><h1 style=color:tomato;>REGISTER HERE</h1></center>
+    <hr>
+    
+    <center><form action="">
+        <label for="fname">First name :</label><br>
+        <input type="text" id="fname" name="fname" placeholder="Enter your Fname"><br><br>
+        <label for="lname">Last name :</label> <br>
+        <input type="text" id="lname" name="lname" placeholder="Enter your Lname"><br><br>
+        <label for="email">Email id :</label> <br>
+        <input type="email" id="email" name="email" placeholder="Enter your mail id"><br><br>
+        <label for="age">Your age :</label><br>
+        <input type="age" id="age" name="age" placeholder="Enter your age"><br><br>
+        <label for="DOB">Date of birth</label><br>
+        <input type="date" id="DOB" name="DOB"><br><br>
+        <label for="agree">do yo have cold ?</label><br>
+        <input type="checkbox" name="agree" id="agree"><br><br>
+        <label for="vaccine">are you vaccinated?</label><br>
+        <input type="checkbox" name="vaccine" id="vaccine"><br><br>
+        <label for ="submit">Click here</label><br>
+        <input type="submit" name="submit"><br><br>
+        <label for="reset">Reset</label><br>
+        <input type="reset" name="reset">
+    </form></center></div></div><br><br><br>
+    <br>
+    <div><center><h2 class=menu >MENU</h2></p></center></div><hr><br>
+    <div class="flex-container">
+    <div class="box1">
+    <h1>veg items</h1>
+    <hr>
+     <ul type="disc">
+        <li><span class=list1>tomato curry</span></li>
+        <li><span class=list1>paneer curry</span></li>
+        <li><span class=list1>dum alu curry</span></li>
+        <li><span class=list1>paneer butter masala</span></li>
+        <li><span class=list1>paneer masala</span></li>
+        <li><span class=list1>corn masala</span></li>
+    </ul></div><br>
+    <div class="box1">
+        <h1>Nonveg items</h1>
+        <hr>
+        <ul type="disc">
+            <li><span class=list1>chicken biryani</span></li>
+            <li><span class=list1>chicken dum biryani</span></li>
+            <li><span class=list1>mutton biryani</span></li>
+            <li><span class=list1>fish biryani</span></li>
+            <li><span class=list1>mutton spl biryani</span></li>
+            <li><span class=list1>prawns biryani</span></li>
+        </ul></div><br>
+        <div class="box1">
+            <h1> nonveg statars</h1>
+            <hr>
+            <ul type="disc">
+                <li><span class=list1>chicken lolipops</span></li>
+                <li><span class=list1>chicken kababs</span></li>
+                <li><span class=list1>chilli chicken</span></li>
+                <li><span class=list1>chicen manchuriya </span></li>
+                <li><span class=list1>egg nudels</span></li>
+                <li><span class=list1>chicken nudels</span></li>
+            </ul></div></div><br><br>
+            <div class="flex-container">
+                <div class="box1">
+                <h1>veg spl</h1>
+                <hr>
+                <ul type="disc">
+                    <li><span class=list1>tomato curry</span></li>
+                    <li><span class=list1>paneer curry</span></li>
+                    <li><span class=list1>dum alu curry</span></li>
+                    <li><span class=list1>paneer butter masala</span></li>
+                    <li><span class=list1>paneer masala</span></li>
+                    <li><span class=list1>corn masala</span></li>
+                </ul></div><br>
+                <div class="box1">
+                    <h1>northindia sp</h1>
+                    <hr>
+                    <ul type="disc">
+                        <li><span class=list1>chicken biryani</span></li>
+                        <li><span class=list1>chicken dum biryani</span></li>
+                        <li><span class=list1>mutton biryani</span></li>
+                        <li><span class=list1>fish biryani</span></li>
+                        <li><span class=list1>mutton spl biryani</span></li>
+                        <li><span class=list1>prawns biryani</span></li>
+                    </ul></div><br>
+                    <div class="box1">
+                        <h1> southindia spl</h1>
+                        <hr>
+                        <ul type="disc">
+                            <li><span class=list1>chicken lolipops</span></li>
+                            <li><span class=list1>chicken kababs</span></li>
+                            <li><span class=list1>chilli chicken</span></li>
+                            <li><span class=list1>manchuriya</span> </li>
+                            <li><span class=list1>paneer masala</span></li>
+                    <li><span class=list1>corn masala</span></li>
+                        </ul></div></div>
+                
+    
+    
+</body>
+</html>
